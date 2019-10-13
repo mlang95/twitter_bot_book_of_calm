@@ -143,8 +143,8 @@ def Tweet_Poem(Poems,str,keyword_flag):
 			return Poem.Center_Alignment().Print_Poem().printpoem
 	
 	
-auth = tweepy.OAuthHandler("Yj2Hr7NIF4bWeVi5ryH9T0PWp","WsWwd2gLMAXWRyf6C5dEpjJJtfrQgzhW9MSeJXVBGTdbc6QbYU")
-auth.set_access_token("1172969779247890432-xRWo0GHxOhs6MVUJCAjCBKcKbbkPdm","hmTojm9hkbAIUZUDFq0IRh5HgHpBxsIWmFF7G8ByXIkjb")
+auth = tweepy.OAuthHandler("","")
+auth.set_access_token("","")
 api = tweepy.API(auth)
 try:
 	api.verify_credentials()
